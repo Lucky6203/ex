@@ -353,9 +353,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'PHPMailer/Exception.php';
-require 'PHPMailer/PHPMailer.php';
-require 'PHPMailer/SMTP.php';
+require 'Exception.php';
+require 'PHPMailer.php';
+require 'SMTP.php';
 
 if(isset($_POST['send'])){
 
